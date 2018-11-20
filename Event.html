@@ -2,13 +2,16 @@
 <html>
 	<head><title>marafki media</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="stylesheet.css">
-		<meta name="viewport" 
+		<link rel="stylesheet" href="yart.css">
+		<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="Dongejs.js"></script>
 	</head>
 	<body>
-		<div>
-		 <form>
+		<div class="topbar">
+		</div>
+		<div class="form1">
+		 <form onsubmit="return validateForm()">
 		 Event_ID:<br>
 		  <input type="text" name="Event_ID"><br>
 		  Event_type:<br>
@@ -18,16 +21,19 @@
 			  <option value="Educational">
 			  <option value="Religious">
 			  <option value="Political">
-			 
+
 			 </datalist><br>
 		  Event Name:<br>
 		  <input type="text" name="Event Name"><br>
 		  Date:<br>
 		  <input type="date" name="Date"><br>
 		  Time:<br>
-		  <input type="time" name="Time"><br
-		  Location:<br>
-		  <input type="text" name="Location"><br
+		  <input type="time" name="Time"><br>
+		  Location :<br>
+		  <input type="text" name="Location"><br>
+
+			<button onclick="location.href='index.html'" type="button">
+     submit</button>
 
 
 

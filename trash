@@ -1,0 +1,168 @@
+<br><hr/>
+
+			<div class="vertical-menu">
+
+
+  <a href="register.html">Register</a>
+  <a href="Content.html">Content</a>
+  <a href="Event.html">Event</a>
+  <a href="Eventtype.html">Eventtype</a>
+  <a href="Post.html">Post</a>
+		</div>
+
+
+
+
+    hr{
+    	float:righ,rightt;
+    }
+
+     ul{
+    	 margin:5px;
+    	 padding:2px;
+    	 list-style: none;
+
+
+     }
+     ul li{
+    	 float:left;
+    	 width:200px;
+    	 height:40px;
+    	 background-color:#2471A3;
+    	 line-height: 40px;
+    	 font-size:15px;
+    	 font-weight: bolder;
+    	 text-align:center;
+    	 margin-right:3px;
+    	 border-radius: 4px
+
+
+     }
+     ul li a{
+    	 text-decoration:none;
+    	 display:block;
+     }
+     ul li a:hover{
+    	 background-color: #1F618D;
+     }
+     .vertical-menu{
+    	 width:5%;/*push to left*/
+    	 border-radius: 5px;
+
+
+     }
+     .vertical-menu a{
+    	 background-color: #4080bf;
+    	 color: black;
+    	 width: 70px;
+    	 margin-top: ;
+    	 margin-left: 25px;
+    	 display: block;
+    	 float: right;
+    	 text-indent: right;
+    	 padding: 15px 12px 12px;/* Add some padding */
+    	 text-decoration: none;
+
+
+
+     }
+     .vertical-menu a:hover{
+    	 background-color: #2471A3;
+     }
+     textarea {
+    	  background: cyan;
+    		border-radius: 20px;
+    	 }
+    	 input {
+        border: 2px solid #495157;
+        border-radius: 4px;
+    		background-color: #E3E6E8;
+    		padding: 5px;
+    		border-radius: 4px;
+
+    }
+background-color: #2c3e50;
+
+.header-top{
+	background-color: #ff1493;
+	color:#fff;
+	height:45px;
+}
+.navbar-main.stiky .header-top{
+	display: none;
+}
+.navbar-main.stiky  .navbar-brand {
+	margin-top: -15px;
+
+
+
+
+
+	<script>
+	function GEEKFORGEEKS()
+	{
+	    var name = document.forms["RegForm"]["Name"];
+	    var email = document.forms["RegForm"]["EMail"];
+	    var phone = document.forms["RegForm"]["Telephone"];
+	    var what =  document.forms["RegForm"]["Subject"];
+	    var password = document.forms["RegForm"]["Password"];
+	    var address = document.forms["RegForm"]["Address"];
+
+	    if (name.value == "")
+	    {
+	        window.alert("Please enter your name.");
+	        name.focus();
+	        return false;
+	    }
+
+	    if (address.value == "")
+	    {
+	        window.alert("Please enter your address.");
+	        name.focus();
+	        return false;
+	    }
+
+	    if (email.value == "")
+	    {
+	        window.alert("Please enter a valid e-mail address.");
+	        email.focus();
+	        return false;
+	    }
+
+	    if (email.value.indexOf("@", 0) < 0)
+	    {
+	        window.alert("Please enter a valid e-mail address.");
+	        email.focus();
+	        return false;
+	    }
+
+	    if (email.value.indexOf(".", 0) < 0)
+	    {
+	        window.alert("Please enter a valid e-mail address.");
+	        email.focus();
+	        return false;
+	    }
+
+	    if (phone.value == "")
+	    {
+	        window.alert("Please enter your telephone number.");
+	        phone.focus();
+	        return false;
+	    }
+
+	    if (password.value == "")
+	    {
+	        window.alert("Please enter your password");
+	        password.focus();
+	        return flase;
+	    }
+
+	    if (what.selectedIndex < 1)
+	    {
+	        alert("Please enter your course.");
+	        what.focus();
+	        return false;
+	    }
+
+	    return true;
+	}</script>

@@ -2,24 +2,30 @@
 <html>
 	<head><title>marafki media</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="stylesheet.css">
-		<meta name="viewport" 
+		<link rel="stylesheet" href="yart.css">
+		<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="Dongejs.js"></script>
 	</head><body>
-		<div>
-		 <form>
+		<div class="topbar">
+		</div>
+		<div class="form1">
+
+		 <form onsubmit="return validateForm()">
 		 PersonsID<br>
 		 <input type="text" name="PersonsID"><br>
 		  ContentID:<br>
 		  <input type="text" name="ContentID"><br>
-		  
+
 		  EventID:<br>
 		  <input type="text" name="EventID"><br>
 		  Time Stamp:<br>
 		  <input type="time" name="Time Stamp"><br>
 		  Comment:<br>
 		  <input type="text" name="Comment"><br>
-		  
+
+			<button onclick="location.href='index.html'" type="button">
+     submit</button>
 			</form>
 		</div>
 		</body>
